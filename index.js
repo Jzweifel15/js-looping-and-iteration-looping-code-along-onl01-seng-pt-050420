@@ -9,3 +9,12 @@ function writeCards(names, event)
   
   return thankYouArray;
 }
+
+function countDown(startingPoint)
+{
+  while (startingPoint >= 0)
+  {
+    console.log(startingPoint);
+    startingPoint--;
+  }
+}
